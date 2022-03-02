@@ -57,7 +57,6 @@ public class Test2 {
       tx = session.beginTransaction();
 
       Employee employee = new Employee();
-      employee.setEmployeeId(1542);
       employee.setFirstName(fName);
       employee.setLastName(lName);
       employee.setSalary(salary);
